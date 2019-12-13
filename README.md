@@ -1,2 +1,2 @@
 # O-nosso-projeto
-Miguel, Nuno e Daniel
+Miguel, Nuno e Daniel.
