@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #A9DFBF;
+}
+
+.box{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  padding: 5px;
+  background: #A9DFBF;
+}
+
+.box a{
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#green{
+  background: #FFF; 
+}
+
+#blue{
+  background: #FFF;  
+}
+
+.colored{
+  background-color: black;
+  color:white;
+}
+
+
+#titulo{
+  text-align: center;
+}
+
+#nav{
+  width: 800px;
+}
+
+.a{
+  text-decoration: none;
+  color: yellow;
+}
+
+#nav ul{
+list-style-type: none;
+;
+}
+
+.selected{
+  font-weight: bold;
+}
+
+#green_button{
+  color: black;
+  background-color: #A9DFBF;
+  border: 5% white;
+}
+
+#blue_button{
+  color: black;
+  background-color: #3498db;
+  border: 5% white;
+}
+
+.calculate{
+  text-align: center;
+}
+
+#copyright{
+  text-align: center;
+  color:black;
+}

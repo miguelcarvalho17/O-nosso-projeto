@@ -24,51 +24,62 @@
 <body>
     
     <!--Inicio do código-->
-    <div id="imagem">
-        <img src="http://iscia.edu.pt/blog/wp-content/uploads/2016/12/ass_jpg_cor1.jpg"
-        style="display:block; margin-left: auto; margin-right: auto;" />
+    <div class ="col">
+        <div id="titulo">
+            <h1>O nosso website</h1>  
+        </div>
     </div>
-    <br/>
+    <div id="content">
+        <div id="nav">
+            <h3>Navegation</h3>
+            <ul>
+                <li><a class="selected" href="">Home</a></li>
+                <li><a href="" >About us</a></li>
+                <li><a href="" >Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="main">
+        <h2>Homepage</h2>
+        <p>Este trabalho foi desenvolvido no ambito da cadeira de Sistemas de Informação, lecionada pelo professor Alexandro Moreira e Luis Borges Gouveia.
+        </p>
+        <p>Mais a frente vão ser apresentados os elementos do grupo, as suas atividades favoritas e as expectativas para o curso.
+        </p>
+    </div>
+
+    <p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Curiosidade
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            O gosto pelo jogo Counter Strike Global Offensive está presente nos 3 elementos do grupo, sendo um dos jogos mais jogados entre nós coletivamente.
+            <img src="https://arenaesports.com.br/foto/976x430/cache/wp-content/uploads/2018/07/Counter-Strike-Global-Offensive-requisistos-m%C3%ADnimos.jpg" width="300px" height="200px">
+        </div>
+      </div>
+    
+       </div>
+    </div>
     <div>
-        <button id="yellow_button" onclick="change_background_color('yellow')">Amarelo</button>
+        <button id="green_button" onclick="change_background_color('green')">Verde</button>
         <button id="blue_button" onclick="change_background_color('blue')">Azul</button>
     </div>
     <br/>
-    <div class="container">
-        <div id="titulo" class="row">
-            <div class ="col">
-                <h1>O nosso website</h1>                
+        <div id="titulo" class="row">         
             </div>
         </div>
     </div>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+   
+    <div class="calculate">
     <input id="operand1" type="text" /> 
           <input id="operand2" type="text" /> 
           <input id="result" type="text" /> 
           <button onclick="calculate()">Calculate</button>
+        </div>
     <footer>
-        <div id="autores" class="container">
-            <div class="row">
-                <div class ="col-4">
-                    Nuno Oliveira
-                </div>
-                <div class ="col-4">
-                    António Pinto
-                </div>
-                <div class ="col-4">
-                    António Carvalho
-                </div>
-            </div>
-            <br/>
             <div id="copyright" class="row">    
                 <div class ="col-12">
                     Trabalho realizado por: Nuno Oliveira, António Pinto, António Carvalho
