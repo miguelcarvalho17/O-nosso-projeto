@@ -59,6 +59,10 @@ list-style-type: none;
   text-align: center;
 }
 
+#main{
+  text-align: center;
+}
+
 #copyright{
   text-align: center;
   color:black;
