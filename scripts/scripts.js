@@ -9,12 +9,3 @@ function change_text() {
     let button_index = Math.floor(Math.random() * (5 - 0)) + 0;
     document.getElementsByTagName("button")[button_index].textContent = r;
 }
-
-function change_background_color(color){
-    if(color == "green"){
-        document.body.style.backgroundColor = "#A9DFBF";
-    }
-    else if(color == "blue"){
-        document.body.style.backgroundColor = "#34495E";
-    }
-}
