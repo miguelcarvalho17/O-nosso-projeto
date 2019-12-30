@@ -1,7 +1,6 @@
 body{
-  margin: 0;
-  padding: 0;
-  background: #A9DFBF;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box{
@@ -19,14 +18,6 @@ body{
   text-indent: -9999px;
   margin: 5px;
   cursor: pointer;
-}
-
-#green{
-  background: #FFF; 
-}
-
-#blue{
-  background: #FFF;  
 }
 
 .colored{
@@ -50,23 +41,16 @@ body{
 
 #nav ul{
 list-style-type: none;
-;
+}
+
+#troca{
+  position: absolute;
+  left: 40%;
+  background: #62C58B;
 }
 
 .selected{
   font-weight: bold;
-}
-
-#green_button{
-  color: black;
-  background-color: #A9DFBF;
-  border: 5% white;
-}
-
-#blue_button{
-  color: black;
-  background-color: #3498db;
-  border: 5% white;
 }
 
 .calculate{

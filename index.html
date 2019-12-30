@@ -48,13 +48,35 @@
                   <a class="nav-link" href="#">Contactos</a>
                 </li>
               </ul>
+              <button id="troca">Troca cor</button>
+<script type="text/javascript">
+    var color=["#222f3e", "#f368e0","#ee5253","#0abde3","#10ac84","#222f3e","#5f27cd"];
+    var i = 0;
+    document.querySelector("button").addEventListener("click", function(){
+        i = i < color.length ? ++i : 0;
+        document.querySelector("body").style.background = color[i];
+    })
+    
+        </script>
         </div>
 
     </div>
 </div>
+
+<button id="troca">Troca cor</button>
+<script type="text/javascript">
+    var color=["#222f3e", "#f368e0","#ee5253","#0abde3","#10ac84","#222f3e","#5f27cd"];
+    var i = 0;
+    document.querySelector("button").addEventListener("click", function(){
+        i = i < color.length ? ++i : 0;
+        document.querySelector("body").style.background = color[i];
+    })
+    
+        </script>
+
     <div id="main">
         <h2>Homepage</h2>
-        <p>Este trabalho foi desenvolvido no ambito da cadeira de Sistemas de Informação, lecionada pelo professor Alexandro Moreira e Luis Borges Gouveia.
+        <p>Este trabalho foi desenvolvido no ambito da cadeira de Sistemas de Informação, lecionada pelo professor Alessandro Moreira e Luis Borges Gouveia.
         </p>
         <p>Mais a frente vão ser apresentados os elementos do grupo, as suas atividades favoritas e as expectativas para o curso.
         </p>
