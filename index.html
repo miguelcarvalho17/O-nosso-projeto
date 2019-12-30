@@ -56,7 +56,7 @@
 <script type="text/javascript">
     var color=["#222f3e", "#f368e0","#ee5253","#0abde3","#10ac84","#222f3e","#5f27cd"];
     var i = 0;
-    document.querySelector("button").addEventListener("click", function(){
+    document.querySelector("#troca").addEventListener("click", function(){
         i = i < color.length ? ++i : 0;
         document.querySelector("body").style.background = color[i];
     })
@@ -84,15 +84,15 @@
       </div>
     
     </div>
-    <div>
-        <button id="green_button" onclick="change_background_color('green')">Verde</button>
-        <button id="blue_button" onclick="change_background_color('blue')">Azul</button>
-    </div>
     <br/>
         <div id="titulo" class="row">         
             </div>
         </div>
     </div>
+
+
+    <!--BOTÃO MODAL-->
+    
     <div class="modal fade" id="orangeModalSubscription" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-notify modal-warning" role="document">
@@ -111,19 +111,19 @@
           <div class="md-form mb-5">
             <i class="fas fa-user prefix grey-text"></i>
             <input type="text" id="form3" class="form-control validate">
-            <label data-error="wrong" data-success="right" for="form3">Your name</label>
+            <label data-error="wrong" data-success="right" for="form3">Insira um valor</label>
           </div>
   
           <div class="md-form">
             <i class="fas fa-envelope prefix grey-text"></i>
             <input type="email" id="form2" class="form-control validate">
-            <label data-error="wrong" data-success="right" for="form2">Your email</label>
+            <label data-error="wrong" data-success="right" for="form2">Insira outro valor</label>
           </div>
         </div>
   
         <!--Footer-->
         <div class="modal-footer justify-content-center">
-          <a type="button" class="btn btn-outline-warning waves-effect">Send <i class="fas fa-paper-plane-o ml-1"></i></a>
+          <a type="button" class="btn btn-outline-warning waves-effect">Calcular<i class="fas fa-paper-plane-o ml-1"></i></a>
         </div>
       </div>
       <!--/.Content-->
@@ -131,8 +131,8 @@
   </div>
   
   <div class="text-center">
-    <a href="" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#orangeModalSubscription">Launch
-      modal Subscription</a>
+    <a href="" class="btn btn-danger" data-toggle="modal" data-target="#orangeModalSubscription">Vamos fazer contas?
+      </a>
   </div>
     <div class="calculate">
     <input id="operand1" type="text" /> 
