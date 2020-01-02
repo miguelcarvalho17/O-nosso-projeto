@@ -37,3 +37,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+function upper_case_text(){
+  var text = document.getElementById("user_text").value
+  alert(text.toUpperCase())
+}
