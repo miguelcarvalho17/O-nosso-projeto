@@ -20,9 +20,7 @@
 
 </head>
 
-
 <body>
-
   <!--Inicio do código-->
   <div class="col">
     <div id="titulo">
@@ -38,16 +36,13 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.ufp.pt/">Universidade Fernando Pessoa</a>
-          </li>
+          </li>        
         </ul>
       </div>
     </div>
   </div>
 
-  <button id="troca">Troca cor</button>
+  <button class="btn btn-warning" id="troca">Troca cor</button>
   <script type="text/javascript">
     var color = ["#222f3e", "#f368e0", "#ee5253", "#0abde3", "#10ac84", "#222f3e", "#5f27cd"];
     var i = 0;
@@ -124,18 +119,8 @@
       </div>
     </div>
   </div>
-  
-  <div>
-
-    <input id="user_text" type="text">
-    <button id="upper_button" onclick="upper_case_text()">MAIUSCULAS</button>
-
-  </div>
-
-
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -149,26 +134,20 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.ufp.pt/">Universidade Fernando Pessoa</a>
+        </li>
+        <li class="nav-item">
+          <div>
+            <input id="user_text" type="text">
+            <button id="upper_button" onclick="upper_case_text()">MAIUSCULAS</button>
+        
+          </div>
+        </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
   </nav>
 

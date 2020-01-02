@@ -46,9 +46,9 @@ list-style-type: none;
 
 #troca{
   position: absolute;
-  left: 37%;
-  top: 6%;
   background: #62AAC5;
+  top:76%;
+  left:9%;
 }
 
 .selected{
