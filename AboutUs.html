@@ -34,13 +34,10 @@
       <div class="col-xs-12">
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.ufp.pt/">Universidade Fernando Pessoa</a>
+            <a class="nav-link active" href="AboutUs.html">About us</a>
           </li>
         </ul>
       </div>
@@ -48,36 +45,39 @@
   </div>
 
   <div id="main">
-    <h2>Homepage</h2>
-    <p>Este trabalho foi desenvolvido no ambito da cadeira de Sistemas de Informação, lecionada pelo professor
-      Alessandro Moreira e Luis Borges Gouveia.
+    <h2>About us</h2>
+    <p>Passando agora a falar um pouco sobre nós, vamo-nos apresentar, dizer aquilo que mais gostamos de fazer e dizer quais são as expectativas para o nosso curso.
     </p>
-    <p>Mais a frente vão ser apresentados os elementos do grupo, as suas atividades favoritas e as expectativas para o
-      curso.
-    </p>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://fne.pt/uploads/noticias/big_1433492627_1653_1.jpg" height="500px" width="800px" alt="logo">
-        </div>
-        <div class="carousel-item">
-          <img src="http://ri.ufp.pt/docs/banner31.png" height="500px" alt="foto">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+
+  <div id="miguel">
+    <img src="https://portal.fpa.pt/fotos_sa/634062_228608.JPG" width="300px" height="200px">
+    <p>Olá, o meu nome é António Carvalho tenho 18 anos e sou natural da Maia. Conclui o 12ºano no curso de Produção e Controlo Industrial no Colégio de Gaia e ingressei este ano na universidade Fernando Pessoa com o objetivo de me licenciar em Engenharia Informática.</p>
+    <p>Os meus passatempos favoritos são jogar andebol, conviver com os meus amigos, ouvir música e jogar videojogos no computador. No futuro gostaria de trabalhar como programador, onde irei aplicar diariamente o que aprendi com a licenciatura referida anteriormente. Escolhi o curso de Engenharia Informática pois sou uma pessoa que gosta de passar tempo a frente de um computador disposto a aprender coisas novas e me interessa quem sabe mais tarde poder dar o meu contributo para o mundo das tecnologias. As minhas expectativas para esta licenciatura incluem: aprofundar os meus conhecimentos informáticos e no final do curso dentro do prazo dos 3 anos ser capaz de aplicar o que aprendi na licenciatura num futuro emprego que venha a ter. Sem dúvida que um dos meus sonhos é um dia poder trabalhar numa empresa como a Google ou a Microsoft.</p>
   </div>
+
+  <div id="daniel">
+    <img src="imagens/daniel.jfif"  width="300px" height="200px">
+    Olá, o meu nome é António Pinto tenho 20 anos e sou natural de Braga. Conclui o 12ºano no curso de Ciencias e Tecnologiase na secundaria de Maximinos em Braga e ingressei este ano na universidade Fernando Pessoa com o objetivo de me licenciar em Engenharia Informática.
+Os meus passatempos favoritos são ver séries ou filmes , ouvir musica e tambem os videojogos. No futuro espero trabalhar como programador onde irei aplicar diariamente o que aprendi com a licenciatura referida anteriormente. Escolhi o curso de Engenharia Informatica porque oferece oportunidade de atuação profissional em várias áreas. As minhas expectativas para esta licenciatura incluem: aprofundar os meus conhecimentos informaticos e no final do curso ser capaz de aplicar o que aprendi na licenciatura no dia-a-dia.
+  </div>
+
+  <div id="nuno">
+    <img src="imagens/nuno.jpg" width="300px" height="200px">
+    Olá, o meu nome é Nuno tenho 19 anos e sou natural de Guimarães conclui o 12º ano no curso de ciências e tecnologias na Didáxis Riba D'ave e ingressei me este ano na universidade Fernando Pessoa com o objetivo de me doutorar em engenharia informática.
+Os meus passatempos favoritos são ver animes, séries e filmes e também jogar videojogos. No futuro pretendo trabalhar como pretendo trabalhar como um cibersegurança num banco. Eu escolhi o curso de engenharia informática pois oferece oportunidades de atuação profissional em várias áreas, pois a tecnologia está cada vez mais presente no quotidiano de cada e é um tema que é falado cada vez mais no dia-a-dia.
+  </div>
+
+  
+  <button class="btn btn-warning" id="troca">Troca cor</button>
+  <script type="text/javascript">
+    var color = ["#222f3e", "#f368e0", "#ee5253", "#0abde3", "#10ac84", "#222f3e", "#5f27cd"];
+    var i = 0;
+    document.querySelector("button").addEventListener("click", function () {
+      i = i < color.length ? ++i : 0;
+      document.querySelector("body").style.background = color[i];
+    })
+
+  </script>
 
   <p>
     <button class="btn btn-primary" type="button" href="#collapseExample" data-toggle="collapse"
@@ -124,7 +124,6 @@
 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -138,26 +137,19 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.ufp.pt/">Universidade Fernando Pessoa</a>
+        </li>
+        <li class="nav-item">
+          <div>
+            <input id="user_text" type="text">
+            <button id="upper_button" onclick="upper_case_text()">MAIUSCULAS</button>       
+          </div>
+        </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
   </nav>
 
