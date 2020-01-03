@@ -40,6 +40,10 @@ body{
   color: yellow;
 }
 
+#miguel{
+  text-align: jus;
+}
+
 #nav ul{
 list-style-type: none;
 }
@@ -47,7 +51,7 @@ list-style-type: none;
 #troca_cor{
   position: absolute;
   background: #62AAC5;
-  
+
 }
 
 .selected{
