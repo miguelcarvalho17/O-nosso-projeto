@@ -44,11 +44,10 @@ body{
 list-style-type: none;
 }
 
-#troca{
+#troca_cor{
   position: absolute;
   background: #62AAC5;
-  top:76%;
-  left:9%;
+  
 }
 
 .selected{
