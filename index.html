@@ -20,9 +20,7 @@
 
 </head>
 
-
 <body>
-
   <!--Inicio do código-->
   <div class="col">
     <div id="titulo">
@@ -34,34 +32,18 @@
       <div class="col-xs-12">
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About us</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Antonio Carvalho</a>
-              <a class="dropdown-item" href="#">Antonio Pinto</a>
-              <a class="dropdown-item" href="#">Nuno Oliveira</a>
-            </div>
+            <a class="nav-link active" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact us</a>
+            <a class="nav-link" href="AboutUs.html">About us</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
 
-  <button id="troca">Troca cor</button>
-  <script type="text/javascript">
-    var color = ["#222f3e", "#f368e0", "#ee5253", "#0abde3", "#10ac84", "#222f3e", "#5f27cd"];
-    var i = 0;
-    document.querySelector("button").addEventListener("click", function () {
-      i = i < color.length ? ++i : 0;
-      document.querySelector("body").style.background = color[i];
-    })
 
-  </script>
 
   <div id="main">
     <h2>Homepage</h2>
@@ -95,90 +77,17 @@
     </div>
   </div>
 
-  <p>
-    <button class="btn btn-primary" type="button" href="#collapseExample" data-toggle="collapse"
-      data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-      Curiosidade
-    </button>
-  </p>
-  <div class="collapse" id="collapseExample">
-    <div class="card card-body">
-      O Counter-Strike surgiu no ano de 1999 como um jogo de tiros em primeira pessoa multiplayer. As versões do jogo
-      que mais se destacaram nesta longa série de 20 anos foi Counter Strike 1.6 e o atual Counter Strike Global
-      Offensive.
-      <p>O gosto por este jogo está presente nos 3 elementos do grupo, sendo um dos jogos que mais jogamos hoje em dia e
-        aquele que consideramos ser o jogo que nunca irá perder a sua piada.</p>
-      <img
-        src="https://arenaesports.com.br/foto/976x430/cache/wp-content/uploads/2018/07/Counter-Strike-Global-Offensive-requisistos-m%C3%ADnimos.jpg"
-        width="300px" height="200px">
-    </div>
-  </div>
-
-  </div>
-  </div>
-
-  <button class="btn btn-success" id="myBtn" data-toggle="modal" data-target="#myModal">Vamos fazer contas?</button>
-  <div id="myModal" class="modal">
-
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <div class="calculate">
-        <input id="operand1" type="text" />
-        <input id="operand2" type="text" />
-        <button onclick="calculate()">Calculate</button>
-      </div>
-    </div>
-  </div>
-  
-  <div>
-
-    <input id="user_text" type="text">
-    <button id="upper_button" onclick="upper_case_text()">MAIUSCULAS</button>
-
-  </div>
-
-
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-
-
-
+<div id="troca">
+  <button class="btn btn-warning" id="troca">Troca cor</button>
+    <script type="text/javascript">
+      var color = ["#222f3e", "#f368e0", "#ee5253", "#0abde3", "#10ac84", "#222f3e", "#5f27cd"];
+      var i = 0;
+      document.querySelector("button").addEventListener("click", function () {
+        i = i < color.length ? ++i : 0;
+        document.querySelector("body").style.background = color[i];
+      })
+    </script>
+</div>
 
   <footer>
     <div id="copyright" class="row">

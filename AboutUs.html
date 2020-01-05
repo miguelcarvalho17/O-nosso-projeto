@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Atividade 2 S.I</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--Ficheiro CSS-->
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <!--Ficheiro Javascript-->
+  <script src="scripts/scripts.js"></script>
+
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+
+  <!--Inicio do código-->
+  <div class="col">
+    <div id="titulo">
+      <h1>O nosso website</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="AboutUs.html">About us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="main">
+    <h2>About us</h2>
+    <hr>
+    <p>Passando agora a falar um pouco sobre nós, vamo-nos apresentar, dizer aquilo que mais gostamos de fazer e dizer quais são as expectativas para o nosso curso.
+    </p>
+    <hr>
+
+  <div id="miguel">
+    <img src="https://portal.fpa.pt/fotos_sa/634062_228608.JPG" width="300px" height="200px">
+    <p>Olá, o meu nome é António Carvalho tenho 18 anos e sou natural da Maia. Conclui o 12ºano no curso de Produção e Controlo Industrial no Colégio de Gaia e ingressei este ano na universidade Fernando Pessoa com o objetivo de me licenciar em Engenharia Informática.</p>
+    <p>Os meus passatempos favoritos são jogar andebol, conviver com os meus amigos, ouvir música e jogar videojogos no computador. No futuro gostaria de trabalhar como programador, onde irei aplicar diariamente o que aprendi com a licenciatura referida anteriormente. Escolhi o curso de Engenharia Informática pois sou uma pessoa que gosta de passar tempo a frente de um computador disposto a aprender coisas novas e me interessa quem sabe mais tarde poder dar o meu contributo para o mundo das tecnologias. As minhas expectativas para esta licenciatura incluem: aprofundar os meus conhecimentos informáticos e no final do curso dentro do prazo dos 3 anos ser capaz de aplicar o que aprendi na licenciatura num futuro emprego que venha a ter. Sem dúvida que um dos meus sonhos é um dia poder trabalhar numa empresa como a Google ou a Microsoft.</p>
+  </div>
+
+  <hr>
+  <div id="daniel">
+    <img src="imagens/daniel.jfif"  width="300px" height="200px">
+    <p>Olá, o meu nome é António Pinto tenho 20 anos e sou natural de Braga. Conclui o 12ºano no curso de Ciências e Tecnologias na secundaria de Maximinos em Braga e ingressei este ano na universidade Fernando Pessoa com o objetivo de me licenciar em Engenharia Informática.</p>
+<p>Os meus passatempos favoritos são ver séries ou filmes , ouvir musica e tambem os videojogos. No futuro espero trabalhar como programador onde irei aplicar diariamente o que aprendi com a licenciatura referida anteriormente. Escolhi o curso de Engenharia Informatica porque oferece oportunidade de atuação profissional em várias áreas. As minhas expectativas para esta licenciatura incluem: aprofundar os meus conhecimentos informaticos e no final do curso ser capaz de aplicar o que aprendi na licenciatura no dia-a-dia.</p>
+  </div>
+
+  <hr>
+  <div id="nuno">
+    <img src="imagens/nuno.jpg" width="300px" height="200px">
+    <p>Olá, o meu nome é Nuno tenho 19 anos e sou natural de Guimarães conclui o 12º ano no curso de ciências e tecnologias na Didáxis Riba D'ave e ingressei me este ano na universidade Fernando Pessoa com o objetivo de me doutorar em engenharia informática.</p>
+<p>Os meus passatempos favoritos são ver animes, séries e filmes e também jogar videojogos. No futuro pretendo trabalhar como pretendo trabalhar como um cibersegurança num banco. Eu escolhi o curso de engenharia informática pois oferece oportunidades de atuação profissional em várias áreas, pois a tecnologia está cada vez mais presente no quotidiano de cada e é um tema que é falado cada vez mais no dia-a-dia.</p>
+  </div>
+  <hr>
+
+<div id="troca_cor">
+  <button class="btn btn-warning" id="troca">Troca cor</button>
+  <script type="text/javascript">
+    var color = ["#222f3e", "#f368e0", "#ee5253", "#0abde3", "#10ac84", "#222f3e", "#5f27cd"];
+    var i = 0;
+    document.querySelector("button").addEventListener("click", function () {
+      i = i < color.length ? ++i : 0;
+      document.querySelector("body").style.background = color[i];
+    })
+
+  </script>
+  </div>
+
+  <p>
+    <button class="btn btn-primary" type="button" href="#collapseExample" data-toggle="collapse"
+      data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+      Curiosidade
+    </button>
+  </p>
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      O Counter-Strike surgiu no ano de 1999 como um jogo de tiros em primeira pessoa multiplayer. As versões do jogo
+      que mais se destacaram nesta longa série de 20 anos foi Counter Strike 1.6 e o atual Counter Strike Global
+      Offensive.
+      <p>O gosto por este jogo está presente nos 3 elementos do grupo, sendo um dos jogos que mais jogamos hoje em dia e
+        aquele que consideramos ser o jogo que nunca irá perder a sua piada.</p>
+      <img
+        src="https://arenaesports.com.br/foto/976x430/cache/wp-content/uploads/2018/07/Counter-Strike-Global-Offensive-requisistos-m%C3%ADnimos.jpg"
+        width="300px" height="200px">
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+ 
+
+  <nav class="nav flex-column">
+    <a class="nav-link" href="https://www.ufp.pt/">Universidade Fernando Pessoa</a>
+    <button class="btn btn-success" id="myBtn" data-toggle="modal" data-target="#myModal">Vamos fazer contas?</button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="calculate">
+          <input id="operand1" type="text" />
+          <input id="operand2" type="text" />
+          <button onclick="calculate()">Calculate</button>
+        </div>
+      </div>
+    </div>
+    <input id="user_text" type="text">
+    <button id="upper_button" onclick="upper_case_text()">MAIUSCULAS</button>
+    <button class="btn btn-warning" id="troca">Troca cor</button>
+    <script type="text/javascript">
+      var color = ["#222f3e", "#f368e0", "#ee5253", "#0abde3", "#10ac84", "#222f3e", "#5f27cd"];
+      var i = 0;
+      document.querySelector("button").addEventListener("click", function () {
+        i = i < color.length ? ++i : 0;
+        document.querySelector("body").style.background = color[i];
+      })
+    </script>
+  </nav>
+
+
+  <footer>
+    <div id="copyright" class="row">
+      <div class="col-12">
+        Trabalho realizado por: Nuno Oliveira, António Pinto, António Carvalho
+        <p> &copy; Copyright 2019</p>
+      </div>
+    </div>
+  </footer>
+  <!--Final do código-->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

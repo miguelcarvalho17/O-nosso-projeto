@@ -40,15 +40,18 @@ body{
   color: yellow;
 }
 
+#miguel{
+  text-align: jus;
+}
+
 #nav ul{
 list-style-type: none;
 }
 
-#troca{
+#troca_cor{
   position: absolute;
-  left: 37%;
-  top: 6%;
   background: #62AAC5;
+
 }
 
 .selected{
